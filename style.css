@@ -1505,10 +1505,6 @@ hr.invis3 {
   font-size: 15px;
 }
 
-.sidebar a {
-  color: rgba(0, 0, 0, 0.6);
-}
-
 .sidebar .widget-title {
   display: block;
   font-size: 18px;
@@ -1768,4 +1764,9 @@ hr.invis3 {
 
 .blue-hover:hover {
   color: rgb(0, 255, 229);
+}
+
+.a-advertisment {
+  padding-top: 20px;
+  color: #3197d6 !important;
 }
