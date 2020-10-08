@@ -39,7 +39,7 @@ h3:hover a,
 h4:hover a,
 h5:hover a,
 h6:hover a {
-  text-decoration: underline !important;
+  text-decoration: none;
   color: #111111 !important;
 }
 
