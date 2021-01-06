@@ -2,6 +2,7 @@
  n =  new Date();
  d = n.getDate();
  m = n.getMonth() + 1;
+ y = n.getFullYear();
 
  switch(m){
      case 1:
@@ -42,5 +43,13 @@
          break;
  }
 
- y = n.getFullYear();
- document.getElementById("date").innerHTML = d + " " + m + " " + y;
+document.getElementById("date").innerHTML = d + " " + m + " " + y;
+
+var items = document.getElementsByClassName("date-class"),
+    i, len;
+
+// loop through all elements having class name ".date-class"
+for (i = 0, len = items.length; i < len; i++) {
+    items[i].innerHTML = d - 1 + " " + m + " " + y;
+}
+ 
